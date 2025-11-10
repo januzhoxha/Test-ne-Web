@@ -1,1 +1,144 @@
 @import 'reset';
+$primary-white: #fff;
+$font-big: 48px;
+$font-medium: 22px;
+$font-semi-medium: 24px;
+$font-small: 14px;
+
+
+
+.Header {
+    width: 1773px;
+    height: 821px;
+    background-image: url('/Testi/images/Image (3).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__titles {
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+    height: 76px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 48px;
+
+    h1 {
+        color: $primary-white;
+        width: 342px;
+        height: 50px;
+        font-size: $font-big;
+    }
+    h2 {
+        color: $primary-white;
+        width: 345px;
+        height: 26px;
+        font-size: $font-medium;
+    }
+}
+
+.Header__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    margin: 20px auto; 
+
+    input {
+    width: 100%;
+    padding: 12px 100px 12px 20px; 
+    border: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    }
+
+    button {
+    position: absolute;
+    left: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+}
+
+.Header__scroll {
+    width: 108px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 108px;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: $primary-white;
+        text-decoration: none;
+    }
+    img {
+        margin-top: 10px;
+    }
+}
+
+.Header__nav {
+        width: 1770px;
+        height: 80px;
+        background-color: #5474FD;
+        display: flex;
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $primary-white;
+            font-size: $font-semi-medium;
+            width: 186px;
+            height: 26px;
+            padding-left: 332px;
+            padding-top: 30px;
+            padding-bottom: 24px;
+
+        }
+
+        ul {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: $primary-white;
+            gap: 12px;
+            font-size: $font-small ;
+        }
+
+        li:nth-of-type(1) {
+            width: 126px;
+        }
+        li:nth-of-type(2) {
+            width: 128px;
+        }
+        li:nth-of-type(3) {
+            width: 148px;
+        }
+        li:nth-of-type(4) {
+            width: 117px;
+        }
+
+    }
