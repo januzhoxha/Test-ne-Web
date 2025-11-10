@@ -4,13 +4,19 @@ $font-big: 48px;
 $font-medium: 22px;
 $font-semi-medium: 24px;
 $font-small: 14px;
+$font-semi-big:36px;
+$primary-blue: #5474FD;
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 
 
 .Header {
     width: 1773px;
     height: 821px;
-    background-image: url('/Testi/images/Image (3).png');
+    background-image: url('/Testi/images/image\ 1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,3 +148,450 @@ $font-small: 14px;
         }
 
     }
+
+.hero {
+    width: 1770px;
+    height: 685px;
+    background-image: url('/Testi/images/Rectangle 41444.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 110px;
+
+    h1 {
+        width: 288px;
+        height: 26px;
+        color: $primary-white;
+        font-size: $font-semi-big;
+    }
+
+    p {
+        width: 560px;
+        height: 158px;
+        color: $primary-white;
+        line-height: 1.5;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    a {
+        width: 179px;
+        height: 26px;
+        font-size: 16px;
+        padding-top: 21px;
+        padding-bottom: 16px;
+        padding-right: 9px;
+        padding-left: 40px;
+        background-color: $primary-blue;
+        color: $primary-white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: #0056b3;
+        transform: scale(1.1);
+    }
+}
+
+.hero-info__images {
+    display: flex;
+    flex-direction: column;
+
+    img:nth-of-type(1) {
+        position:relative;
+        padding-bottom: 10px;
+        right: 90px;
+    }
+}
+
+.services {
+    width: 1773px;
+    height: 340px;
+    display: flex;
+    background-color: #232323;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: $primary-white;
+        font-size: $font-semi-big;
+    }
+}
+
+.services__Search-Places {
+    width: 353px;
+    height: 163px;
+    padding-right: 105px;
+
+    img {
+        width: 60px;
+        height: 59px;
+        padding-bottom: 19px;
+    }
+}
+.services__Select-Places {
+    width: 200px;
+    height: 161px;
+    padding-right: 173px;
+
+    img {
+        width: 62px;
+        height: 63px;
+        padding-bottom:17px;
+    }
+}
+.services__Book-Enjoy {
+    width: 215px;
+    height: 174px;
+    
+    img {
+        width: 64px;
+        height: 61px;
+        padding-bottom: 20px;
+    }
+}
+.Spain {
+    width: 1770px;
+    height: 700px;
+    background-image: url('/Testi/images/Rectangle\ 414\ 45.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spain-info {
+    width: 543px;
+    height: 374px;
+    background-color: #232323;
+    margin-left: 328px;
+    margin-right: 900px;
+    margin-bottom: 99px;
+    margin-top: 227px;
+
+    h2 {
+        width: 80px;
+        height: 26px;
+        color: $primary-white;
+        margin-left: 32px;
+        margin-top: 49px;
+        margin-right: 431px;
+        margin-bottom: 23px;
+        font-size: 20px;
+    }
+
+    h1 {
+        width: 241px;
+        height: 26px;
+        color: $primary-white;
+        margin-left: 32px;
+        margin-bottom: 13px;
+        font-size: 20px;
+    }
+
+    p {
+        width: 508px;
+        height: 78px;
+        margin-left: 32px;
+        padding-bottom: 46px;
+        line-height: 1.5;
+        color: $primary-white;
+    }
+
+    a {
+        width: 228px;
+        height: 63px;
+        font-size: 16px;
+        padding-top: 21px;
+        padding-bottom: 16px;
+        padding-right: 42px;
+        padding-left: 38px;
+        margin-left: 30px;
+        background-color: $primary-blue;
+        color: $primary-white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: #0056b3;
+    }
+}
+
+.Spain2 {
+    width: 1770px;
+    height: 700px;
+    background-image: url('/Testi/images/Rectangle 41445.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spain2-info {
+    width: 543px;
+    height: 374px;
+    background-color: #232323;
+    margin-left: 898px;
+    margin-right: 329px;
+    margin-bottom: 99px;
+    margin-top: 227px;
+
+    h2 {
+        width: 80px;
+        height: 26px;
+        color: $primary-white;
+        margin-left: 32px;
+        margin-top: 49px;
+        margin-right: 431px;
+        margin-bottom: 23px;
+        font-size: 20px;
+    }
+
+    h1 {
+        width: 241px;
+        height: 26px;
+        color: $primary-white;
+        margin-left: 32px;
+        margin-bottom: 13px;
+        font-size: 20px;
+    }
+
+    p {
+        width: 508px;
+        height: 78px;
+        margin-left: 32px;
+        padding-bottom: 46px;
+        line-height: 1.5;
+        color: $primary-white;
+    }
+
+    a {
+        width: 228px;
+        height: 63px;
+        font-size: 16px;
+        padding-top: 21px;
+        padding-bottom: 16px;
+        padding-right: 42px;
+        padding-left: 38px;
+        margin-left: 30px;
+        background-color: $primary-blue;
+        color: $primary-white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: #0056b3;
+    }
+}
+
+.feedback {
+    width: 1770px;
+    height: 700px;
+    background-image: url('/Testi/images/Rectangle 4142 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        width: 390px;
+        height: 26px;
+        color: $primary-white;
+        font-size: $font-semi-big;
+        padding-bottom: 91px;
+    }
+}
+
+.feedback__Sam-Sumon {
+    display: flex;
+
+    img {
+        width: 445px;
+        height: 284px;
+    }
+}
+
+.feedback__Sam-Sumon-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 668px; 
+    background-color: #232323;
+    padding: 20px; 
+    box-sizing: border-box; 
+
+    h2 {
+        color: $primary-white;
+        font-size: 20px;
+        margin-bottom: 15px; 
+        line-height: 1.2; 
+    }
+
+    p {
+        color: $primary-white;
+        font-size: $font-small;
+        line-height: 1.5; 
+        margin: 0; 
+        flex: 1; 
+    }
+}
+
+
+.Footer {
+    width: 1773px;
+    height: 271px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: $primary-white;
+        width: 193px;
+        height: 26px;
+        padding-bottom: 9px;
+        font-size: 24px;
+    }
+
+    h2 {
+        color: $primary-white;
+        width: 196px;
+        height: 26px;
+    }
+
+    img {
+        display: flex;
+        position: relative;
+        right: 20px;
+        width: 166px;
+        height: 16px;
+        padding-top: 29px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Header, .Header__nav, .hero, .services, .Spain, .Spain2, .feedback, .Footer {
+        width: 100%; 
+    }
+
+    .Header__titles {
+        width: 80%;
+        h1 {
+            font-size: 36px; 
+        }
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    .Header__search {
+        width: 80%;
+        input {
+            padding: 10px 80px 10px 15px;
+        }
+        button {
+        left: calc(100% - 80px);
+        padding: 8px 15px;
+        }
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-info {
+        padding-right: 0;
+        text-align: center;
+
+        h1 {
+        width: 90%;
+        font-size: 28px;
+        }
+
+        p {
+        width: 90%;
+        font-size: 14px;
+        }
+    }
+
+    .Spain-info, .Spain2-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .feedback__Sam-Sumon {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+        width: 80%;
+        height: auto;
+        }
+    }
+
+    .feedback__Sam-Sumon-text {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .Footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Header__titles h1 {
+        font-size: 24px;
+    }
+
+    .Header__titles h2 {
+        font-size: 16px;
+    }
+
+    .Header__search {
+        width: 95%;
+        input {
+        padding: 8px 70px 8px 10px;
+        }
+        button {
+            left: calc(100% - 70px);
+            padding: 6px 12px;
+        font-size: 14px;
+        }
+    }
+
+    .hero-info h1 {
+        font-size: 22px;
+    }
+
+    .hero-info p {
+        font-size: 12px;
+    }
+
+    .Spain-info, .Spain2-info {
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
